@@ -21,6 +21,11 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+@media (max-width: 760px) {
+    .head_container {
+        justify-content: center;
+    }
+}
 .h590 {
     height: 590px;
 }
@@ -49,6 +54,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .top_cover_logo {
     position: absolute;
     box-sizing: border-box;
@@ -82,6 +88,7 @@ body {
     border-color: transparent;
     border-style: solid;
 }
+
 .top_cover_form {
 
 }
@@ -292,4 +299,94 @@ padding-top: 10px;
 .red-2 {
     border:2px solid #fa4856;
     color: #fa4856
+}
+
+@media (max-width: 760px) {
+    .top_cover_content {
+        justify-content: center;
+    }
+    .top_cover_title {
+        font-size: 32px;
+        text-align: center;
+    }
+    .top_cover_text {
+        font-size: 16px;
+        text-align: center;
+    }
+    .content_black {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .content_white {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .content_red {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .bl-row {
+        flex-direction: column;
+    }
+    .bl-2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .bl-3 {
+        width: 100%;
+        margin-bottom: 50px;
+        padding-right: 0;
+    }
+    .bl-3 img {
+        margin-bottom: 10px;
+    }
+    .bl-4 .circle {
+        margin-right: 20px;
+        border: unset;
+    }
+    .bl-4 .text {
+        padding-top: 0;
+    }
+    .bl-5 {
+        text-align: center;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .bl-5 a {
+        margin-bottom: 20px;
+    }
+    .key {
+        left: 150px;
+    }
+    .bl-6 {
+        flex-direction: column;
+    }
+    .bl-6 .img-1 {
+        width: 100%;
+        order: 1;
+    }
+    .bl-6 .content {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .bl-6 .title {
+        font-size: 24px;
+    }
+    .bl-6 .text {
+        font-size: 12px;
+    }
+    .t-form {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tn-form__submit {
+        margin-top: 30px;
+    }
+    .t-submit {
+        width: 100%;
+    }
+    .t-input {
+        width: 100%;
+    }
 }
