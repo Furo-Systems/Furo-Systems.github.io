@@ -320,6 +320,18 @@ padding-top: 10px;
     min-height: 400px;
 }
 
+.prices_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.prices_block > .card {
+    min-width: 250px;
+}
+
 @media (max-width: 760px) {
     .top_cover_content {
         justify-content: center;

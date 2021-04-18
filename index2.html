@@ -294,6 +294,62 @@
                     Our prices
                 </div>
 
+                <div class="prices_block">
+
+                    <div class="card">
+                        <h5 class="card-header">Plane One</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">$0 / Free</h5>
+                          <p class="card-text">Include:
+                              <ul>
+                                  <li>type one</li>
+                                  <li>type two</li>
+                                  <li>type three</li>
+                              </ul>
+                          </p>
+                        <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'one'})">
+                            Get
+                        </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-header">Plane Two</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">$10 / month</h5>
+                          <p class="card-text">Include <b>Plan One</b> plus:
+                              <ul>
+
+                                  <li>type one</li>
+                                  <li>type two</li>
+                                  <li>type three</li>
+                              </ul>
+                          </p>
+                          <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'two'})">
+                            Get
+                        </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-header">Plane Three</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">$50 / month</h5>
+                          <p class="card-text">Include <b>Plan Two</b> plus:
+                              <ul>
+                                  <li>type one</li>
+                                  <li>type two</li>
+                                  <li>type three</li>
+                              </ul>
+                          </p>
+                          <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'three'})">
+                            Get
+                        </button>
+                        </div>
+                    </div>
+
+                </div>
+
                 
 
             </div>
