@@ -66,7 +66,7 @@
                                 </div>
     
                                 <div class="tn-form__submit" style="">
-                                    <button type="submit" class="t-submit" onclick="amplitude.getInstance().logEvent('TOP_FORM_SUBMIT')">
+                                    <button type="submit" class="t-submit" onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'top'})">
                                         Sign up for demo
                                     </button>
                                 </div>
@@ -275,7 +275,7 @@
                             </div>
 
                             <div class="tn-form__submit" style="">
-                                <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('LOYALTYSHARE_FORM_SUBMIT')">
+                                <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'loayltyshare'})">
                                     Sign up for demo
                                 </button>
                             </div>
@@ -284,6 +284,17 @@
 
                 </div>
 
+
+            </div>
+        </div>
+
+        <div class="content_pure_white">
+            <div class="head_container hd">
+                <div class="block_title">
+                    Our prices
+                </div>
+
+                
 
             </div>
         </div>
@@ -363,7 +374,7 @@
                                     </div>
     
                                     <div class="tn-form__submit" style="">
-                                        <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('BOTTOM_FORM_SUBMIT')">
+                                        <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'bottom'})">
                                             Sign up for demo
                                         </button>
                                     </div>

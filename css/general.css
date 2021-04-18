@@ -99,7 +99,11 @@ body {
     border-color: transparent;
     border-style: solid;
 }
-
+.content_pure_white {
+    background-color: #ffffff;
+    padding: 100px 0;
+    color: rgb(6, 65, 77);
+}
 .content_white {
     background-color: #f3f6fa;
     padding: 100px 0;
