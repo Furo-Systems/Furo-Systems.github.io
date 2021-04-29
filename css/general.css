@@ -133,6 +133,8 @@ body {
     /* max-width: 500px; */
     margin-top: 40px;
     font-weight: 400;
+    width: 50%;
+    padding-right: 20px;
 }
 .bl-1 .title {
     font-size: 42px;
@@ -155,12 +157,15 @@ body {
     flex-direction: row;
 
 }
+.fl-wrap {
+    flex-wrap: wrap;
+}
 .bl-3 {
     font-weight: 600;
     font-size: 18px;
     margin-top: 40px;
-    /* width: 30%; */
-    /* padding-right: 40px; */
+    width: 30%;
+    padding-right: 40px;
 }
 .bl-3 img {
     margin-right: 40px;
@@ -373,12 +378,19 @@ padding-top: 10px;
         padding-right: 20px;
         padding-left: 20px;
     }
+    .content_pure_white {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
     .content_red {
         padding-right: 20px;
         padding-left: 20px;
     }
     .bl-row {
         flex-direction: column;
+    }
+    .bl-1 {
+        width: 100%;
     }
     .bl-2 {
         width: 100%;
@@ -439,6 +451,13 @@ padding-top: 10px;
         width: 100%;
     }
     .t-input {
+        width: 100%;
+    }
+    .prices_block {
+        flex-wrap: wrap;
+    }
+    .prices_block  > .card {
+        margin-bottom: 20px;
         width: 100%;
     }
 }
