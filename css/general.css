@@ -17,9 +17,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    
 }
 @media (max-width: 760px) {
     .head_container {
@@ -27,7 +28,12 @@ body {
     }
 }
 .h590 {
-    height: 590px;
+    height: 620px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .cont {
     max-width: 1200px;
@@ -43,7 +49,7 @@ body {
     margin-top: 20px;
 }
 .top_cover {
-    height: 590px;
+    height: 700px;
     background-color: #fa4856;
     position: relative;
     width: 100%;
@@ -61,7 +67,7 @@ body {
     display: table;
     left: 692.5px;
     top: 85px;
-    width: 680px;
+    width: 720px;
 }
 .top_cover_logo img {
     width: 100%;
@@ -98,6 +104,23 @@ body {
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+}
+.top_cover_about{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tc_about_card {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    color: #ffffff;
+    font-size: 14px;
+
+}
+.tc_about_card img {
+    margin-right: 10px;
 }
 .content_pure_white {
     background-color: #ffffff;
@@ -271,14 +294,14 @@ padding-top: 10px;
     margin-top: 60px;
 }
 .t-input {
-    margin-right: 40px;
-    color:#ffffff;
+    margin-right: 5px;
+    color:#636F7D;
     border: unset;
-    background-color: unset;
-    font-size:16px;
+    background-color: #ffffff;
+    font-size:18px;
     font-weight:400;
     height:50px;
-    width: 300px;
+    width: 335px;
     border-bottom: 2px solid #ffffff;
 }
 .t-input-2 {
@@ -296,12 +319,24 @@ padding-top: 10px;
     border-bottom: 2px solid #fa4856;
 }
 .t-input::placeholder {
-    color: #ffffff;
+    color: #636F7D;
     opacity: 0.5;
 }
 .red1::placeholder {
     color: #000000;
     opacity: 0.5;
+}
+.t-submit2 {
+    color:#ffffff;
+    border:2px solid #142438;
+    background-color: #142438;
+    /* border-radius:100px; */
+    font-weight:600;
+    font-size:16px;
+    width:200px;
+    height:50px;
+    padding:0 15px;
+    display:block;
 }
 .t-submit {
     color:#ffffff;
@@ -445,12 +480,27 @@ padding-top: 10px;
         text-align: center;
     }
     .tn-form__submit {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .t-submit {
         width: 100%;
     }
+    .t-submit2 {
+        width: 100%;
+    }
+    .top_cover_form {
+        padding-right: 20px;
+    }
+    .top_cover_about {
+        padding-right: 20px;
+    }
+    .head_container {
+        padding-left: 20px;
+    }
     .t-input {
+        width: 100%;
+    }
+    .t-input-2 {
         width: 100%;
     }
     .prices_block {
@@ -458,6 +508,19 @@ padding-top: 10px;
     }
     .prices_block  > .card {
         margin-bottom: 20px;
+        width: 100%;
+    }
+    .top_cover_about {
+        flex-direction: column;
+    }
+    .tc_about_card {
+        padding-bottom: 10px;
+    }
+    .h590 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .form {
         width: 100%;
     }
 }

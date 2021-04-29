@@ -33,6 +33,7 @@
             <div class="head_container">
     
                     <img src="images/tild3331-6364-4131-b666-653039363939__logo.svg" class="img" alt="Furo group" />
+
     
             </div>
         </div>
@@ -60,7 +61,7 @@
                                         <input type="text" name="Email"
                                                class="t-input"
                                                value=""
-                                               placeholder="enter your email"
+                                               placeholder="Enter your email"
                                                required
                                         >
     
@@ -68,7 +69,7 @@
                                 </div>
     
                                 <div class="tn-form__submit" style="">
-                                    <button type="submit" class="t-submit" onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'top'})">
+                                    <button type="submit" class="t-submit2" onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'top'})">
                                         Sign up for demo
                                     </button>
                                 </div>
@@ -77,14 +78,35 @@
                     </div>
     
                 </div>
+
+                <div class="top_cover_about">
+                    <div class="tc_about_card">
+                        <img src="images/topcover_01.svg" alt="" />
+                        <div>Save up to 20% on loyalty payouts</div>
+                    </div>
+                    <div class="tc_about_card">
+                        <img src="images/topcover_02.svg" alt="" />
+                        <div>Attract new customers through the ecosystems</div>
+                    </div>
+                    <div class="tc_about_card">
+                        <img src="images/topcover_03.svg" alt="" />
+                        <div>Setup only takes a minute. <br/>No credit card required. Cancel anytime.</div>
+                    </div>
+                    <div class="tc_about_card">
+                        <img src="images/topcover_04.svg" alt="" />
+                        <div>By FinTech and banking experts</div>
+                    </div>
+                </div>
             </div>
     
             <div class="top_cover_logo">
                 <img src="images/tild6233-3765-4135-b133-313139363662__group.svg" alt="Furo group" />
+                <!-- <img src="images/topcover_back_logo.svg" alt="Furo group" /> -->
             </div>
-            <div class="top_cover_slogan">
+            <!-- <div class="top_cover_slogan">
                 Brought to you by banking and FinTech experts
-            </div>
+            </div> -->
+            
         </div>
 
 
@@ -168,7 +190,7 @@
                                     Easy to install
                                 </h2>
                                 <div>
-                                    All you need is to create an account in Furo and add extension in your web app. Loyalty solution will be automatically integrated. Furo is an SaaS-type solution, so you don't need to worry about hosting.
+                                    All you need is to create an account in Furo and add extension in your web app. Loyalty solution will be automatically integrated. Furo is an <a href="https://en.wikipedia.org/wiki/Software_as_a_service" target="_p" style="color: white">SaaS-type</a> solution, so you don't need to worry about hosting.
                                 </div>
                             </div>
                         </div>
@@ -262,16 +284,23 @@
                 <div class="prices_block">
 
                     <div class="card">
-                        <h5 class="card-header">Plane One</h5>
+                        <h5 class="card-header">Starter plane</h5>
                         <div class="card-body">
-                          <h5 class="card-title">$0 / Free</h5>
+                          <h5 class="card-title">€20.49 / month</h5>
+                          <h5 class="card-title">€199.95 / year</h5>
                           <p class="card-text">Include:
                               <ul>
-                                  <li>type one</li>
-                                  <li>type two</li>
-                                  <li>type three</li>
+                                  <li>Loyalty Points</li>
+                                  <li>Loyalty Share</li>
+                                  <li>Statistics</li>
                               </ul>
                           </p>
+                          <p>
+                              * - up to 100 clients
+                          </p>
+                          <p>
+                            * - 3 months trial period
+                        </p>
                         <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'one'})">
                             Get
                         </button>
@@ -279,17 +308,24 @@
                     </div>
 
                     <div class="card">
-                        <h5 class="card-header">Plane Two</h5>
+                        <h5 class="card-header">Grow up</h5>
                         <div class="card-body">
-                          <h5 class="card-title">$10 / month</h5>
-                          <p class="card-text">Include <b>Plan One</b> plus:
+                          <h5 class="card-title">€35.99 / month</h5>
+                          <h5 class="card-title">€349.95 / year</h5>
+                          <p class="card-text">Include <b>Start plan features</b> plus:
                               <ul>
-
-                                  <li>type one</li>
-                                  <li>type two</li>
-                                  <li>type three</li>
+                                  <li>Gift Cards</li>
+                                  <li>Discounts</li>
+                                  <li>PointsToMoney</li>
+                                  <li>Vouchers</li>
                               </ul>
                           </p>
+                          <p>
+                            * - up to 250 clients
+                        </p>
+                        <p>
+                            * - 3 months trial period
+                        </p>
                           <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'two'})">
                             Get
                         </button>
@@ -297,16 +333,20 @@
                     </div>
 
                     <div class="card">
-                        <h5 class="card-header">Plane Three</h5>
+                        <h5 class="card-header">Enterprise</h5>
                         <div class="card-body">
-                          <h5 class="card-title">$50 / month</h5>
-                          <p class="card-text">Include <b>Plan Two</b> plus:
+                          <h5 class="card-title"></h5>
+                          <p class="card-text">Include <b>Grow up plan features</b> plus:
                               <ul>
-                                  <li>type one</li>
-                                  <li>type two</li>
-                                  <li>type three</li>
+                                  <li>API access</li>
+                                  <li>Advanced statistics and insights</li>
+                                  <li>Advanced Loyalty share</li>
                               </ul>
                           </p>
+                          <p>
+                            * - unlimited clients
+                        </p>
+                        
                           <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'three'})">
                             Get
                         </button>
@@ -382,11 +422,11 @@
                                   method="POST"> -->
                             <form role="form" name="request_access_bottom" data-netlify="true" method="POST">
                                 <input type="hidden" name="_subject" value="furo_group landing">
-                                <div class="t-form red">
+                                <div class="t-form">
                                     <div >
                                         <div class="t-input-block" style="position: relative; overflow: hidden;">
                                             <input type="text" name="Email"
-                                                   class="t-input-2"
+                                                   class="t-input"
                                                    value=""
                                                    placeholder="enter your email"
                                                    required
@@ -396,7 +436,7 @@
                                     </div>
     
                                     <div class="tn-form__submit" style="">
-                                        <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'bottom'})">
+                                        <button type="submit" class="t-submit2"  onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'bottom'})">
                                             Sign up for demo
                                         </button>
                                     </div>
