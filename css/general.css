@@ -372,6 +372,12 @@ padding-top: 10px;
     min-width: 250px;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .row_flex {
     display: flex;
     flex-direction: row;
@@ -391,6 +397,14 @@ padding-top: 10px;
     font-weight: 300;
     line-height: 2.5rem;
     letter-spacing: .1rem;
+}
+
+.carousel-inner {
+    padding-left: 40px;
+    padding-right: 40px;    
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 30px;
 }
 
 @media (max-width: 760px) {
@@ -430,6 +444,9 @@ padding-top: 10px;
     .bl-2 {
         width: 100%;
         margin-bottom: 50px;
+    }
+    .bl-2 h2 {
+        font-size: 1.8rem;
     }
     .bl-3 {
         width: 100%;
@@ -522,5 +539,11 @@ padding-top: 10px;
     }
     .form {
         width: 100%;
+    }
+    .column_flex div {
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+        letter-spacing: .1rem;
     }
 }

@@ -47,7 +47,7 @@
                         Furo Systems
                     </div>
                     <div class="top_cover_text">
-                        Save up to 20% on loyalty payouts
+                        Loyalty unchained
                     </div>
                     <div class="top_cover_form">
     
@@ -153,7 +153,6 @@
                       <button type="button" data-bs-target="#carousel_block2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                       <button type="button" data-bs-target="#carousel_block2" data-bs-slide-to="2" aria-label="Slide 3"></button>
                       <button type="button" data-bs-target="#carousel_block2" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                      <button type="button" data-bs-target="#carousel_block2" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active" data-bs-interval="5000">
@@ -208,20 +207,15 @@
                             </div>
                         </div>
                       </div>
-                      <div class="carousel-item" data-bs-interval="5000">
-                        <div class="bl-row bl-2">
-                            <img src="images/tild3866-3330-4362-a464-353661373934__analytics.svg" alt="" />
-                            <div class="column_flex">
-                                <h2>
-                                    Your unique way of approaching clients
-                                </h2>
-                                <div>
-                                    Analyze your customer data, plan special offers to drive sales in the time needed!
-                                </div>
-                            </div>
-                        </div>
-                      </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_block2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel_block2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
 
                   </div>
 
@@ -284,8 +278,9 @@
                 <div class="prices_block">
 
                     <div class="card">
-                        <h5 class="card-header">Starter plane</h5>
+                        <h5 class="card-header">Starter plan</h5>
                         <div class="card-body">
+                            <div>
                           <h5 class="card-title">€20.49 / month</h5>
                           <h5 class="card-title">€199.95 / year</h5>
                           <p class="card-text">Include:
@@ -301,6 +296,7 @@
                           <p>
                             * - 3 months trial period
                         </p>
+                        </div>
                         <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'one'})">
                             Get
                         </button>
@@ -310,9 +306,10 @@
                     <div class="card">
                         <h5 class="card-header">Grow up</h5>
                         <div class="card-body">
+                            <div>
                           <h5 class="card-title">€35.99 / month</h5>
                           <h5 class="card-title">€349.95 / year</h5>
-                          <p class="card-text">Include <b>Start plan features</b> plus:
+                          <p class="card-text">Include <b>Starter plan features</b> plus:
                               <ul>
                                   <li>Gift Cards</li>
                                   <li>Discounts</li>
@@ -326,6 +323,7 @@
                         <p>
                             * - 3 months trial period
                         </p>
+                    </div>
                           <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'two'})">
                             Get
                         </button>
@@ -335,6 +333,7 @@
                     <div class="card">
                         <h5 class="card-header">Enterprise</h5>
                         <div class="card-body">
+                            <div>
                           <h5 class="card-title"></h5>
                           <p class="card-text">Include <b>Grow up plan features</b> plus:
                               <ul>
@@ -346,7 +345,7 @@
                           <p>
                             * - unlimited clients
                         </p>
-                        
+                    </div>
                           <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'three'})">
                             Get
                         </button>
