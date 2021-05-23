@@ -142,6 +142,17 @@ body {
     color: #ffffff;
     padding: 100px 0;
 }
+.ctn_red {
+    background-color: #fa4856;
+    color: #ffffff;
+}
+.ctn_white {
+    background-color: #f3f6fa;
+    color: rgb(6, 65, 77);
+}
+.mdl {
+    width: 575px;
+}
 .block_title {
     font-size: 32px;
     font-weight: 700;

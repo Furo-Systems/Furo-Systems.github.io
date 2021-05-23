@@ -50,9 +50,7 @@
                         Loyalty unchained
                     </div>
                     <div class="top_cover_form">
-    
-                        <!-- <form role="form" action="https://formsubmit.co/Fshmorgilov@gmail.com"
-                              method="POST"> -->
+
                         <form role="form" name="request_access_top" data-netlify="true" method="POST">
                             <input type="hidden" name="_subject" value="furo_group landing">
                             <div class="t-form">
@@ -297,7 +295,10 @@
                             * - 3 months trial period
                         </p>
                         </div>
-                        <button type="submit" class="t-submit red-2"  onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'one'})">
+                        <!-- <button type="submit" class="t-submit red-2"  data-bs-toggle="modal" data-bs-target="#connectModal" onclick="amplitude.getInstance().logEvent('GET_PRICE', {'plan': 'one'})">
+                            Get
+                        </button> -->
+                        <button type="submit" class="t-submit red-2"  data-bs-toggle="modal" data-bs-target="#connectModal">
                             Get
                         </button>
                         </div>
@@ -353,8 +354,6 @@
                     </div>
 
                 </div>
-
-                
 
             </div>
         </div>
@@ -417,8 +416,6 @@
                         </div>
                         <div class="form">
     
-                            <!-- <form role="form" action="https://formsubmit.co/Fshmorgilov@gmail.com"
-                                  method="POST"> -->
                             <form role="form" name="request_access_bottom" data-netlify="true" method="POST">
                                 <input type="hidden" name="_subject" value="furo_group landing">
                                 <div class="t-form">
@@ -448,7 +445,52 @@
                 </div>
             </div>
         </div>
+
         
+<!-- Modal -->
+<div class="modal fade" id="connectModal" tabindex="-1" aria-labelledby="connectModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content mdl">
+        <div class="modal-header ctn_red">
+          <h5 class="modal-title" id="connectModalLabel">Request information about our price</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ctn_white">
+            <div>
+                Leave your email below, so we can show you how Furo can increase your sales.
+            </div>
+            <div class="form">
+    
+                <form role="form" name="request_access_modal" data-netlify="true" method="POST">
+                    <input type="hidden" name="_subject" value="furo_group landing">
+                    <div class="t-form">
+                        <div >
+                            <div class="t-input-block" style="position: relative; overflow: hidden;">
+                                <input type="text" name="Email"
+                                       class="t-input"
+                                       value=""
+                                       placeholder="enter your email"
+                                       required
+                                >
+
+                            </div>
+                        </div>
+
+                        <div class="tn-form__submit" style="">
+                            <button type="submit" class="t-submit2"  onclick="amplitude.getInstance().logEvent('LANDING_FORM_SUBMIT', {'area': 'modal'})">
+                                Sign up for demo
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
     </div>
 
 
