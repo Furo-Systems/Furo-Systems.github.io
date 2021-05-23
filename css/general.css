@@ -380,7 +380,7 @@ padding-top: 10px;
 }
 
 .prices_block > .card {
-    min-width: 250px;
+    width: 250px;
 }
 
 .card-body {
@@ -416,6 +416,26 @@ padding-top: 10px;
 }
 .carousel-control-next, .carousel-control-prev {
     width: 30px;
+}
+.footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.footer div {
+    margin-right: 50px;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(6, 65, 77);
+}
+.prc {
+    padding-top: 30px;
+}
+.prc a {
+    text-decoration: none;
+    color: rgb(6, 65, 77);
 }
 
 @media (max-width: 760px) {
